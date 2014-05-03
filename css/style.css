@@ -1,0 +1,18 @@
+
+*{padding: 0; margin:0;}
+
+
+header{display:block; height: 200px; background: #ddd; }
+header h1{ display: block; float: left; width: 200px;}
+header .center .busca{ width: 300px; display: block; float: right;}
+
+header .center .carrinho{ display: block; width: 150px; float: right; margin-top: 20px;}
+header .center .carrinho span{ color: red; font-weight: bold; font-size: 16px;}
+header .center .carrinho a{ display: block;float: left;}
+
+
+.center{ display: block; width: 900px; margin: 0 auto;}
+.center aside{ display: block; width: 300px; float: left; }
+.center section.content{ display: block; width: 600px; float: left; }
+.center section.content .preco{ font-size: 17px; font-weight:bold;  }
+.center section.content .celula_produto{ display: block; width: 180px; height: 200px; background: red; float: left; margin: 10px;}
